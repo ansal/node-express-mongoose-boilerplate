@@ -11,6 +11,8 @@ var mongostore = require('connect-mongo')(express);
 
 // app specific modules
 var config = require('./config.js');
+var authentication = require('./auth.js');
+var urls = require('./urls.js');
 
 var app = express();
 
@@ -48,9 +50,10 @@ app.use(passport.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 // setup authentications
-//authentications(passport, config);
+authentication(passport, config);
+
 // define the urls
-//urls(app, passport);
+urls(app, passport);
 
 // 404 handler
 app.use(function(req, res, next){
