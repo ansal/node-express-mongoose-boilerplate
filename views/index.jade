@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Welcome to Node Express Mongoose Boilerplate
+  p Login with anyone of the following -
+  ul
+    li 
+      a(href="/auth/login/google") Google
+    li 
+      a(href="/auth/login/facebook") Facebook
+    li 
+      a(href="/auth/login/twitter") Twitter
