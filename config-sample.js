@@ -1,6 +1,9 @@
 // sample configurations for the app
 
 module.exports = {
+
+  // port for express server to run
+  port: 3000,
  
   // mongodb config line
   db: 'mongodb://localhost/node-express-mongoose-boilerplate',
