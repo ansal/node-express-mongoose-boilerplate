@@ -1,0 +1,36 @@
+/* Custom styles for ForeverJS App */
+
+body {
+  background: url('/img/bg.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app-container {
+  margin-left: 12%;
+}
+
+.articleBox {
+  height: 320px;
+  background: white;
+  margin: 20px;
+}
+
+.articlePreview {
+  background: white;
+}
+
+.bookmarklet { 
+  cursor: copy;
+}
+
+.navbar-default{
+  background-color: lemonchiffon;
+}
+
+.appContent {
+  margin-top: 50px;
+}
+
+.jumbotronContent {
+  margin-top: 30px;
+}

@@ -2,9 +2,6 @@
 
 module.exports = {
 
-  // port for express server to run
-  port: 3000,
- 
   // mongodb config line
   db: 'mongodb://localhost/node-express-mongoose-boilerplate',
 
@@ -15,22 +12,22 @@ module.exports = {
   // social logins to be used with passportjs
   // google
   google: {
-    clientID: '',
-    clientSecret: '',
+    clientID: 'SECRET',
+    clientSecret: 'SECRET',
     callbackURL: '/auth/callback/google'
   },
 
   // facebook
   facebook: {
-    clientID: '',
-    clientSecret: '',
+    clientID: 'SECRET',
+    clientSecret: 'SECRET',
     callbackURL: '/auth/callback/facebook'
   },
 
   // twitter
   twitter: {
-    clientID: '',
-    clientSecret: '',
+    clientID: 'SECRET',
+    clientSecret: 'SECRET',
     callbackURL: '/auth/twitter/callback'
   }
 
